@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Antools — a web collection of paid and free design and development tools.">
+  <title>Antools — Tools for Designers & Developers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#" aria-label="Antools home">
+        <span class="logo__mark">A</span><span class="logo__text">antools<span class="logo__dot">.</span></span>
+      </a>
+      <button class="header__menu" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__link" href="#home">Home</a>
+        <a class="nav__link nav__link--dropdown" href="#tools">Categories <span>⌄</span></a>
+        <a class="nav__link" href="#collections">My Collections</a>
+        <a class="nav__link" href="#blog">Blog</a>
+      </nav>
+      <div class="header__actions">
+        <a class="header__login" href="#login">Login</a>
+        <a class="button button--small" href="#signup">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero__content">
+        <h1 class="hero__title">Awesome tools for<br>Designer &amp; Developer<span>.</span></h1>
+        <p class="hero__description">Antool is a web collection of information on paid or<br class="desktop-break"> free Design and Development tools</p>
+        <form class="search" role="search">
+          <label class="search__field">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+            <input type="search" placeholder="Find more than 430+ tools..." aria-label="Search tools">
+          </label>
+          <button class="button search__button" type="submit">Search</button>
+        </form>
+        <div class="socials" aria-label="Social links">
+          <a href="https://facebook.com" aria-label="Facebook" class="socials__link socials__link--facebook">f</a>
+          <a href="https://instagram.com" aria-label="Instagram" class="socials__link">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="socials__fill" cx="18" cy="6.5" r="1"></circle></svg>
+          </a>
+          <a href="https://twitter.com" aria-label="Twitter" class="socials__link">
+            <svg viewBox="0 0 24 24" class="socials__twitter"><path d="M21 6.1c-.7.3-1.5.5-2.3.6a4 4 0 0 0 1.8-2.2 8 8 0 0 1-2.6 1 4 4 0 0 0-6.9 3.7A11.4 11.4 0 0 1 2.7 5a4 4 0 0 0 1.2 5.3c-.6 0-1.2-.2-1.8-.5v.1a4 4 0 0 0 3.2 3.9 4 4 0 0 1-1.8.1 4 4 0 0 0 3.7 2.8A8.1 8.1 0 0 1 2 18.4a11.4 11.4 0 0 0 17.6-9.6v-.5A8 8 0 0 0 21 6.1z"></path></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="hero__shape hero__shape--back"></div>
+        <div class="hero__code hero__code--left">
+          <span class="hero__code-line hero__code-line--orange"></span>
+          <i></i><i></i><i></i><i></i>
+        </div>
+        <div class="hero__code hero__code--right">
+          <span class="hero__code-dot"></span>
+          <span class="hero__code-line hero__code-line--blue"></span>
+          <i></i><i></i><i></i><i></i>
+        </div>
+        <div class="hero__bracket">{ }</div>
+        <div class="hero__shadow"></div>
+      </div>
+    </section>
+
+    <section class="tools container" id="tools">
+      <div class="section-heading">
+        <h2 class="section-heading__title">Most Popular Tools</h2>
+        <p class="section-heading__description">Tools for the best Designers and Developers<br>most popularly used in the world</p>
+      </div>
+
+      <div class="tools__grid">
+        <article class="tool-card">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--figma"><span></span><span></span><span></span><span></span><span></span></div>
+            <div><h3 class="tool-card__name">FIGMA</h3><p class="tool-card__price">Free</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Figma" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Figma"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="tool-card__visit" href="https://www.figma.com/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+
+        <article class="tool-card tool-card--featured">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--sketch"><span></span></div>
+            <div><h3 class="tool-card__name">Sketch</h3><p class="tool-card__price">Trial &amp; Paid</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Sketch" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Sketch"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="button button--visit" href="https://www.sketch.com/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--vscode"><span></span></div>
+            <div><h3 class="tool-card__name">Visual Studio Code</h3><p class="tool-card__price">Free</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Visual Studio Code" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Visual Studio Code"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="tool-card__visit" href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--notion">N</div>
+            <div><h3 class="tool-card__name">Notion</h3><p class="tool-card__price">Free &amp; Paid</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Notion" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Notion"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="tool-card__visit" href="https://www.notion.so/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--slack"><span></span><span></span><span></span><span></span></div>
+            <div><h3 class="tool-card__name">Slack</h3><p class="tool-card__price">Free &amp; Paid</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Slack" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Slack"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="tool-card__visit" href="https://slack.com/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+
+        <article class="tool-card">
+          <div class="tool-card__top">
+            <div class="tool-icon tool-icon--invision">in.</div>
+            <div><h3 class="tool-card__name">Invision</h3><p class="tool-card__price">Free &amp; Paid</p></div>
+          </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tool-card__footer">
+            <div class="tool-card__actions"><button class="icon-button" aria-label="Like Invision" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-9-5.7-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.3-9 12-9 12z"></path></svg></button><button class="icon-button" aria-label="Save Invision"><svg viewBox="0 0 24 24"><path d="M3 5.5h7l2 2H21v12H3z"></path><path d="M12 11v5m-2.5-2.5h5"></path></svg></button></div>
+            <a class="tool-card__visit" href="https://www.invisionapp.com/" target="_blank" rel="noreferrer">Visit</a>
+          </div>
+        </article>
+      </div>
+      <button class="button button--load" type="button">Load more</button>
+    </section>
+
+    <section class="brands container" id="collections">
+      <div class="brands__panel">
+        <p class="brands__title">Trusted more than 150+ brand</p>
+        <div class="brands__list" aria-label="Trusted brands">
+          <span class="brand brand--microsoft"><i></i>Microsoft</span>
+          <span class="brand brand--google">Google</span>
+          <span class="brand brand--slack">✣ slack</span>
+          <span class="brand brand--wordpress">ⓦ WordPress</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container" id="blog">
+    <span>© 2024 Antools. All rights reserved.</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
