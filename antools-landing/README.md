@@ -1,14 +1,3 @@
-# Antools landing page
+# Antools
 
-Адаптивная вёрстка лендинга по предоставленному макету Figma.
-
-## Запуск
-Откройте `index.html` в браузере. Сторонние библиотеки не используются; шрифт Poppins загружается из Google Fonts.
-
-## Структура
-- `index.html` — семантическая разметка страницы
-- `styles.css` — оформление, адаптивность, БЭМ-классы
-- `script.js` — меню, поиск и переключение избранного
-- `solution.js` — экспорт функции `answer` для платформы
-
-Перед отправкой задания убедитесь, что репозиторий `Obormot404/Abanking-education-html` создан и содержит эти файлы.
+Earlier static version of the landing page. The current implementation is in `src/` at the repository root.
