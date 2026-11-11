@@ -1,38 +1,15 @@
 # Antools
 
-Актуальная реализация находится в `src/`. Папка `antools-landing/` содержит прежний вариант и не участвует в сборке.
+A responsive landing page for design and development tools.
 
-Изображения экспортированы из Figma, шрифт Poppins хранится локально. Реализованы адаптивная сетка, мобильное меню, поиск, избранное, коллекции и модальные формы входа и регистрации. Формы показывают интерфейс и валидацию; серверная авторизация в задание по вёрстке не входит.
+## Development
 
-В `prototypes/` находятся схема связей объектов, SVG-исходник и отдельный `solution.js`.
+Install dependencies with `npm install`, then start the development server with `npm start`.
 
-Стартовый шаблон задания по верстке макета для курса ABanking Education.
+Run `npm run build` to create the production files in `dist/`.
 
-## Задание
+## Features
 
-Сверстайте страницу по [макету в Figma](https://www.figma.com/design/jFj70BijeNOjaCI9N6wZZf/For-univrseity-course-landing?t=B5TJdOBXNCjwrBQ2-1). Начните с форка этого репозитория и вносите изменения в файлы `src/`.
+Search tools, save cards to a collection, and load additional tools. The page includes mobile navigation and login and signup dialogs with field validation.
 
-## Локальный запуск
-
-Нужны Node.js и npm. Установите зависимости и запустите dev-сервер:
-
-```bash
-npm install
-npm start
-```
-
-## Сборка
-
-```bash
-npm run build
-```
-
-## Что отправить на платформу
-
-Загрузите файл `solution.js` с экспортированной функцией `answer`, возвращающей ссылку на ваш форк. Замените `YOUR_GITHUB_LOGIN` на свой логин GitHub:
-
-```js
-export const answer = () => {
-  return 'https://github.com/YOUR_GITHUB_LOGIN/Abanking-education-html';
-};
-```
+Built with HTML, SCSS, JavaScript, and Webpack. Fonts and images are stored locally.
