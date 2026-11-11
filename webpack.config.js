@@ -3,11 +3,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
     mode: 'development',
+    devtool: false,
     entry: {
-        styles: './src/styles/main.scss'
+        main: './src/index.js'
     },
     output: {
-        clean: false,
+        clean: true,
         assetModuleFilename: "assets/[hash][ext]"
     },
     devServer: {
